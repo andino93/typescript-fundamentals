@@ -1,7 +1,7 @@
 //TODO: Implement hexToRgb
 export const hexToRgb = (hex: string): {r: number, g: number, b:number} => {
   if (hex.length === 3) {
-    let hex6 = ''
+    let hex6: string = ''
     for (let hexCh of hex) {
       hex6 += (hexCh + hexCh)
     }
